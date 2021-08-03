@@ -1,0 +1,14 @@
+{
+  "name": "@dp/web-utils",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "private": true,
+  "scripts": {
+    "build": "tsc -b",
+    "clean": "rm -rf ./dist && rm tsconfig.tsbuildinfo"
+  }
+}
