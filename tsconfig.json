@@ -17,8 +17,5 @@
 
     "composite": true,
     "jsx": "react"
-    // "paths": {
-    //   "@dp/web-utils": ["packages/web-utils/src"]
-    // }
   }
 }
