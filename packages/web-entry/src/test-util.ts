@@ -1,6 +1,3 @@
-// import { isNumber, isPrimitive, dedupeArray } from '@dp/web-utils';
-// import { dedupeArray } from '@dp/web-utils/src/array-fn';
-// import { isNumber, isPrimitive } from '@dp/web-utils/src/type-guard';
 import { dedupeArray, isNumber, isPrimitive } from '@dp/web-utils';
 
 console.log('we are gonna verify if this is a number or not ', isNumber(NaN));

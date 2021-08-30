@@ -11,14 +11,15 @@
     "skipLibCheck": true,
 
     "esModuleInterop": true,
-    "module": "commonjs",
     "moduleResolution": "node",
+    // "module": "esnext",
+    "module": "CommonJS",
     "target": "es2015",
 
-    "composite": true,
-    "jsx": "react"
-    // "paths": {
-    //   "@dp/web-utils": ["packages/web-utils/src"]
-    // }
+    // "composite": true,
+    "jsx": "react",
+    "paths": {
+      "@dp/web-utils": ["packages/web-utils/src"]
+    }
   }
 }
