@@ -11,11 +11,16 @@
     "skipLibCheck": true,
 
     "esModuleInterop": true,
-    "module": "commonjs",
+    "module": "esnext",
     "moduleResolution": "node",
     "target": "es2015",
 
     "composite": true,
     "jsx": "react"
+  },
+  "ts-node": {
+    "compilerOptions": {
+      "module": "CommonJS"
+    }
   }
 }
